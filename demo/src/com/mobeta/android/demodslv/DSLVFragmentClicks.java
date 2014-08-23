@@ -20,15 +20,14 @@ public class DSLVFragmentClicks extends DSLVFragment {
     }
 
     AdapterView.OnItemLongClickListener mLongClickListener = 
-            new AdapterView.OnItemLongClickListener() {
-                @Override
-                public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int arg2,
-                        long arg3) {
-                    String message = String.format("Long-clicked item %d", arg2);
-                    Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
-                    return true;
-                }
-            };
+    		new AdapterView.OnItemLongClickListener() {
+    	@Override
+    	public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+    		String message = String.format("Long-clicked item %d", arg2);
+    		Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
+    		return true;
+    	}
+    };
 
     @Override
     public void onActivityCreated(Bundle savedState) {

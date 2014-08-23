@@ -4,6 +4,8 @@ DragSortListView
 News
 ----
 
+**Aug. 23, 2014**: Version 0.6.3 is released. Merge some Updates for Madsonic Client.
+
 **Jan. 10, 2013**: Version 0.5.0 is released. Supports ListView
 multi-choice and single-choice modes thanks to the hard work of
 [Mattias Flodin](https://github.com/mattiasflodin)! Awesome-sauce.
